@@ -5,8 +5,8 @@
 - [Author](#TOXIC)
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/TO3IC/Front-End-Mentor---Rating-web-app]
+- Live Site URL: [https://to3ic.github.io/Front-End-Mentor---Rating-web-app/]
 
 ## My process
 
@@ -15,6 +15,6 @@
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [https://to3ic.github.io/Front-End-Mentor---Rating-web-app/]
+- Frontend Mentor - [@TO3IC(https://www.frontendmentor.io/profile/TO3IC)]
+- Twitter - [@mr_macthink(https://twitter.com/mr_macthink)]
