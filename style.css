@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;800;900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      font-family: "Overpass", sans-serif;
+      --White: hsl(0, 0%, 100%);
+      --LightGrey: hsl(217, 12%, 63%);
+      --MediumGrey: hsl(216, 12%, 54%);
+      --BTNGREY: hsla(216, 12%, 54%, 0.121);
+      --DarkBlue: hsl(213, 19%, 18%);
+      --VeryDarkBlue: hsl(216, 12%, 8%);
+      --Orange: hsl(25, 97%, 53%)
+}
+
+.con {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      background: var(--VeryDarkBlue);
+}
+
+.rating-btn {
+      color: white;
+      background: var(--BTNGREY);
+      height: 60px;
+      width: 60px;
+      border-radius: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      cursor: pointer;
+}
+
+.rating-btn:hover {
+      background: var(--LightGrey);
+}
+
+.submit {
+      width: 85%;
+      padding: 10px 0;
+      border-radius: 10000px;
+      background: var(--Orange);
+      border: none;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      cursor: pointer;
+}
+
+
+p {
+      width: 80%;
+}
+
+.text2 {
+      text-align: center;
+      width: 75%;
+      color: var(--LightGrey);
+}
+
+.rating-radio {
+      appearance: none;
+      pointer-events: none;
+      position: absolute;
+}
+
+.rating,
+.thank {
+      display: flex;
+      flex-direction: column;
+      width: 450px;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 450px;
+      background: linear-gradient(to top, hsl(215, 18%, 19%), hsl(214, 18%, 25%));
+      padding: 5px 20px;
+      color: white;
+      border-radius: 30px;
+}
+
+.top-star {
+      translate: 53% 53%;
+      scale: 1.6;
+      transform-origin: center;
+
+}
+
+.text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+}
+
+.star-bg {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      margin-bottom: 35px;
+      scale: 1.2;
+      border-radius: 100%;
+      background: var(--BTNGREY);
+}
+
+.btns {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      display: flex;
+}
+
+.rating-radio:checked+.rating-btn {
+      background: var(--Orange);
+}
+
+.thank {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      gap: 2%;
+}
+
+.rating-amount {
+      color: var(--Orange);
+      padding: 10px 20px;
+      margin: 20px 0;
+      background: var(--BTNGREY);
+      border-radius: 10000px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
